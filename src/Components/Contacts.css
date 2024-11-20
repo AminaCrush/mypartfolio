@@ -1,0 +1,42 @@
+.Contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ContactItem {
+  border: 2px solid pink;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 10px 0;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ContactItem h1,
+.ContactItem p {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  gap: 8px;
+}
+
+.ContactItem h1 {
+  margin-bottom: 0.5rem;
+}
+
+.ContactItem h1 strong {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ContactItem p {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem; /* Отступ между иконкой и текстом */
+}

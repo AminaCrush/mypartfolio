@@ -1,0 +1,32 @@
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c3e50; /* Темный фон */
+  padding: 1rem 2rem; /* Отступы */
+  color: rgb(59, 10, 10); /* Цвет текста */
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 1.8rem; /* Размер заголовка */
+  font-weight: bold; /* Жирный шрифт */
+ 
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem; /* Расстояние между ссылками */
+}
+
+.nav-links a {
+  color: rgb(0, 0, 0); /* Цвет ссылок */
+  text-decoration: none; /* Убираем подчеркивание */
+  font-size: 1rem; /* Размер шрифта */
+  transition: color 0.3s; /* Плавный переход цвета */
+}
+
+.nav-links a:hover {
+  color: #e67e22; /* Цвет при наведении */
+}
