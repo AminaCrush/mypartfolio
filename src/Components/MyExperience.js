@@ -25,7 +25,7 @@ const myExperience = () => {
         knowledge.
       </p>
 
-      <img src={image} />
+      <img className="img_myexp" src={image} />
     </div>
   );
 };

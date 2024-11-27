@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #ffebf2; /* Light pink background */
+  background-color: #ffebf2; 
   overflow-x: hidden;
 }
 
@@ -16,35 +16,38 @@ h3,
 h4,
 h5,
 h6 {
-  color: #d5006d; /* Darker pink for headings */
+  color: #d5006d;
 }
 
 .navbar {
-  background-color: #ff5c8a; /* Pink for the navbar */
+  background-color: #ff5c8a; 
   padding: 15px;
   text-align: center;
 }
 
 .navbar a {
-  color: white; /* White text for links */
+  color: white; 
   text-decoration: none;
   margin: 0 15px;
   font-weight: bold;
 }
 
 .footer {
-  background-color: #5e033081; /* Pink for the footer */
+  background-color: #5e033081; 
   padding: 10px;
   text-align: center;
   position: relative;
   bottom: 0;
-  width: 100%;
+  max-width: 1440px;
 }
 
 .footer p {
-  color: white; /* White text for footer */
+  color: white; 
   margin: 0;
-  
 }
 
 
+.img_myexp {
+  width: 100%;
+  height: 100%;
+}

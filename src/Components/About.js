@@ -1,5 +1,5 @@
 import React from 'react';
-import {AboutMe} from '../img/img'; // Убедитесь, что путь к изображению правильный
+import {AboutMe} from '../img/img'; 
 import './About.css';
 
 const About = () => {
@@ -7,7 +7,7 @@ const About = () => {
       <>
         <h1>SOME STUFF</h1> 
         <div className="ImageWrapper">
-          <img src={AboutMe} alt="About Me" /> {/* Используйте тег <img> */}
+          <img src={AboutMe} alt="About Me" /> 
         </div>
       </>
     );

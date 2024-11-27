@@ -1,4 +1,4 @@
-/* Navbar styles */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -26,5 +26,5 @@
 }
 
 .nav-links a:hover {
-  color: #566460; /* Цвет при наведении */
+  color: #566460; 
 } 

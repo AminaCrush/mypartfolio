@@ -1,6 +1,6 @@
 .ImageWrapper {
-  border: 2px solid pink; /* Розовая рамка */
-  border-radius: 5px; /* Закругление углов */
+  border: 2px solid pink;
+  border-radius: 5px;
   padding: 10px; /* Отступы внутри рамки */
-  display: inline-block; /* Чтобы рамка обтягивала изображение */
+  display: inline-block; 
 }
